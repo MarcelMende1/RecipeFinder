@@ -1,0 +1,42 @@
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Node.js (Frontend)
+node_modules/
+npm-debug.log
+yarn-error.log
+dist/
+build/
+
+# Python (Backend)
+__pycache__/
+*.py[cod]
+*$py.class
+env/
+venv/
+ENV/
+instance/
+*.sqlite3
+*.db
+
+# Logs
+*.log
+
+# IDE-specific files
+.idea/
+.vscode/
+
+# System files
+*.swp
+*.swo
+*.swn
+
+# Optional: Ignore environment and secrets files
+.env
+.env.*
+config.yaml
+settings.py
