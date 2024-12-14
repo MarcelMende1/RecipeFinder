@@ -1,0 +1,82 @@
+# Byte-compiled / optimized / compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Flask specific
+instance/
+*.sqlite3
+*.db
+
+# Logs and runtime files
+*.log
+*.pot
+*.pyc
+*.pyo
+*.env
+*.cover
+.coverage
+.coverage.*
+*.cache
+*.mo
+
+# pip environment
+pip-log.txt
+pip-delete-this-directory.txt
+
+# pytest cache
+.pytest_cache/
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# IDE and editor settings
+.idea/
+*.swp
+*.swo
+*.swn
+.vscode/
+*.code-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Secrets and configurations
+.env
+.env.*
+config.yaml
+settings.py
+
+# Jupyter Notebook checkpoints (if applicable)
+.ipynb_checkpoints/
+
+# Static files (generated)
+staticfiles/
