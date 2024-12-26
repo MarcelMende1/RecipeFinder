@@ -1,4 +1,12 @@
 <script setup>
+/**
+ * Component for displaying a single recipe as a Card.
+ * 
+ * Props:
+ * - `recipe` (Object): An object containing details of the recipe.
+ * - `showDescription` (Boolean): Toggles the description display (default: false).
+ * 
+ */
 import { ref, computed } from "vue";
 import { RouterLink } from "vue-router";
 
